@@ -54,7 +54,7 @@ abstract class ChatController extends State<ChatScreen> {
     rtdb = FirebaseDatabase.instanceFor(
       app: firebaseApp,
       databaseURL:
-          'https://botps-1da99-default-rtdb.europe-west1.firebasedatabase.app/',
+          'database_URL',
     ).ref().child("chat");
     DataSnapshot data = await rtdb.child("chat").get();
     if (data.exists) {
