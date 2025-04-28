@@ -1,0 +1,5 @@
+{
+    "java.project.sourcePaths": [
+        "lib/presentation_layer/chat/chat_screen.dart"
+    ]
+}
